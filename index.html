@@ -96,7 +96,7 @@ protein structures.  We evaluate 11 agent configurations, including general codi
         <div class="figure-grid">
           <figure class="figure-card featured">
             <img
-              src="assets/figure-placeholder.svg"
+              src="assets/Figure1_benchmark_pipeline.png"
               alt="Placeholder for the main overview figure"
             />
             <figcaption>
@@ -109,25 +109,22 @@ to held-out task-specific graders. (e) Nine evaluation metrics feed the leaderbo
 
           <figure class="figure-card">
             <img
-              src="assets/figure-placeholder.svg"
+              src="assets/Figure3_main_leaderboard_failures.png"
               alt="Placeholder for an experimental results figure"
             />
             <figcaption>
-              <strong>Figure 2: Key experimental results.</strong>
-              Use this slot for a leaderboard plot, evaluation summary, or
-              comparison against baselines.
+              <strong>Figure 2: Main-experiment scores and failure profile.</strong> Panel (a) averages normalized score only over successfully evaluated
+tasks, by domain and overall.  Panel (b) averages over all 76 tasks and assigns each failed run with score 0 as a penalty. Panel (c) splits each agent's 76 runs into successful \textbf{OK} runs, meaning submissions that pass the task-specific evaluator and receive a valid score.
             </figcaption>
           </figure>
 
           <figure class="figure-card">
             <img
-              src="assets/figure-placeholder.svg"
+              src="assets/Figure5_same_backbone_ablation_scores_failures.png"
               alt="Placeholder for an analysis or ablation figure"
             />
             <figcaption>
-              <strong>Figure 3: Analysis or ablation.</strong>
-              Replace with an ablation, case study, qualitative example, or
-              error analysis from the paper.
+              <strong>Figure 3: Fixed LLM backbone ablation study over different agent scaffolds.</strong> The layout follows Figure 2, but every agent uses DeepSeek-V3.2 as backbone. Panel (a) averages successful-only tasks, panel (b) averages all 76 tasks with failed tasks scored zero as a penalty, and panel (c) shows success/failure categories.
             </figcaption>
           </figure>
         </div>
